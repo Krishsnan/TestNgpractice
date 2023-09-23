@@ -24,8 +24,12 @@ public class Sample {
 		} else {
 			System.out.println("page load incomplete");
 		}
-		
-		
+
 		driver.quit();
+	}
+
+	@Test
+	public void test1() {
+		System.out.println("test1");
 	}
 }
